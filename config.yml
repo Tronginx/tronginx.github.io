@@ -1,4 +1,153 @@
 baseURL: https://tronginx.github.io/
-languageCode: en-us
+languageCode: zh
 title: Tronginx
 theme: "PaperMod"
+paginate: 5
+
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: Tron's blog
+  description: "Enjoy the moment"
+  keywords: [Blog, Portfolio, Tron, Hezhuang Tian, Hezhuang， Tron Tian, Coding]
+  author: Tron
+  # author: ["Me", "You"] # multiple authors
+  images: ["<static/fdb.jpeg>"]
+  DateFormat: "January 2, 2006"
+  defaultTheme: light # dark, light
+  disableThemeToggle: true
+
+  ShowReadingTime: true
+  ShowShareButtons: false
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: true
+  UseHugoToc: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Tronginx"
+    #icon: static/mi3.jpg
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: Tron's blog
+    subtitle: "Enjoy the moment"
+    imageUrl: "<static/fdb.jpeg>"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: van·built
+    buttons:
+      - name: Posts
+        url: posts
+      - name: Tags
+        url: tags
+      - name: Archive
+        url: "/archive"
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Life happens"
+    Content: Enjoy the moment
+  socialIcons:
+    - name: twitter
+      url: "https://twitter.com/tronginx"
+    - name: github
+      url: "https://github.com/Tronginx"
+    - name: "email"
+      url: "mailto:thx2thz@gmail.com"
+
+  analytics:
+    google:
+      SiteVerificationTag: "XYZabc"
+    bing:
+      SiteVerificationTag: "XYZabc"
+    yandex:
+      SiteVerificationTag: "XYZabc"
+
+  cover:
+    hidden: true # hide everywhere but not in structured data
+    hiddenInList: true # hide on list pages and home
+    hiddenInSingle: true # hide on single page
+
+  editPost:
+    URL: "https://github.com/Tronginx/tronginx.github.io/blob/main/content"
+    Text: "Suggest Changes" # edit text
+    appendFilePath: true # to append file path to Edit link
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+
+menu:
+  main:
+    # - identifier: Categories
+    #   name: categories
+    #   url: /categories/
+    #   weight: 10
+    - identifier: Tags
+      name: tags
+      url: /tags/
+      weight: 18
+    - identifier: Archives
+      name: archives
+      url: /archives/
+      weight: 20
+    - identifier: Search
+      name: search
+      url: /search/
+      weight: 15
+
+
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
+outputs:
+    home:
+        - HTML
+        - RSS
+        - JSON # is necessary
