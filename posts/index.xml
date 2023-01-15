@@ -1,1 +1,33 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/"><channel><title>Posts on Tronginx</title><link>https://tronginx.github.io/posts/</link><description>Recent content in Posts on Tronginx</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Sun, 15 Jan 2023 15:41:17 -0500</lastBuildDate><atom:link href="https://tronginx.github.io/posts/index.xml" rel="self" type="application/rss+xml"/><item><title>First</title><link>https://tronginx.github.io/posts/first/</link><pubDate>Sun, 15 Jan 2023 15:41:17 -0500</pubDate><guid>https://tronginx.github.io/posts/first/</guid><description>eat, pray, love</description></item></channel></rss>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Posts on Tronginx</title>
+    <link>https://tronginx.github.io/posts/</link>
+    <description>Recent content in Posts on Tronginx</description>
+    <image>
+      <url>https://tronginx.github.io/%3Cstatic/fdb.jpeg%3E</url>
+      <link>https://tronginx.github.io/%3Cstatic/fdb.jpeg%3E</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh</language>
+    <lastBuildDate>Sun, 15 Jan 2023 15:41:17 -0500</lastBuildDate><atom:link href="https://tronginx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>First</title>
+      <link>https://tronginx.github.io/posts/first/</link>
+      <pubDate>Sun, 15 Jan 2023 15:41:17 -0500</pubDate>
+      
+      <guid>https://tronginx.github.io/posts/first/</guid>
+      <description>eat, pray, love</description>
+    </item>
+    
+    <item>
+      <title>为什么要反思</title>
+      <link>https://tronginx.github.io/posts/second/</link>
+      <pubDate>Sun, 15 Jan 2023 17:15:03 +0000</pubDate>
+      
+      <guid>https://tronginx.github.io/posts/second/</guid>
+      <description>Desc Text.</description>
+    </item>
+    
+  </channel>
+</rss>
