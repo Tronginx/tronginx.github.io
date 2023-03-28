@@ -10,7 +10,16 @@
     </image>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh</language>
-    <lastBuildDate>Sun, 15 Jan 2023 15:41:17 -0500</lastBuildDate><atom:link href="https://tronginx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 28 Mar 2023 17:18:03 +0000</lastBuildDate><atom:link href="https://tronginx.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《七个习惯》个人篇 - The 7 Habits of Highly Effective People</title>
+      <link>https://tronginx.github.io/posts/7habits/</link>
+      <pubDate>Tue, 28 Mar 2023 17:18:03 +0000</pubDate>
+      
+      <guid>https://tronginx.github.io/posts/7habits/</guid>
+      <description>关于七个习惯的自我思考</description>
+    </item>
+    
     <item>
       <title>First</title>
       <link>https://tronginx.github.io/posts/first/</link>
