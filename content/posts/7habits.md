@@ -3,7 +3,7 @@ title: "《七个习惯》个人篇 - The 7 Habits of Highly Effective People"
 date: 2023-02-03
 # weight: 1
 # aliases: ["/reflection"]
-tags: ["reflection"]
+tags: ["reflection", "reading"]
 author: "Tron"
 # author: ["Me"] # multiple authors
 showToc: true
@@ -18,7 +18,6 @@ disableShare: false
 disableHLJS: false
 hideSummary: false
 searchHidden: true
-ShowReadingTime: true
 ShowBreadCrumbs: true
 ShowPostNavLinks: true
 ShowWordCount: true
