@@ -1,5 +1,5 @@
 ---
-title: "不要追求 - Don't simp"
+title: "Don't simp"
 date: 2023-02-20
 # weight: 1
 # aliases: ["/reflection"]
@@ -11,7 +11,7 @@ TocOpen: false
 draft: false
 hidemeta: false
 comments: false
-description: "提升自我价值是正确的路 - Improving self-worth is the right path."
+description: "Improving self-worth is the right path."
 canonicalURL: "https://canonical.url/to/page"
 disableHLJS: true # to disable highlightjs
 disableShare: false

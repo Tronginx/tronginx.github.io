@@ -1,5 +1,5 @@
 ---
-title: "The 7 Habits of Highly Effective People - 《七个习惯》个人篇"
+title: "Thoughts on The 7 Habits of Highly Effective People"
 date: 2023-02-03
 # weight: 1
 # aliases: ["/reflection"]
