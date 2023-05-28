@@ -1,5 +1,5 @@
 baseURL: https://tronginx.github.io/
-languageCode: zh
+languageCode: en
 title: Tronginx
 theme: "PaperMod"
 paginate: 5
@@ -54,7 +54,7 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Tronginx"
+    text: "Hezhuang Tian"
     #icon: static/mi3.jpg
     iconHeight: 35
 
@@ -62,7 +62,7 @@ params:
   profileMode:
     enabled: false # needs to be explicitly set
     title: Tron's blog
-    subtitle: "Enjoy the moment"
+    subtitle: "Death is the destination we all share. - Steve Jobs"
     imageUrl: "<static/fdb.jpeg>"
     imageWidth: 120
     imageHeight: 120
@@ -78,10 +78,10 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Life happens"
-    Content: Enjoy the moment
+    Content: Death is the destination we all share. - Steve Jobs
   socialIcons:
     - name: twitter
-      url: "https://twitter.com/tronginx"
+      url: "https://twitter.com/trontian"
     - name: github
       url: "https://github.com/Tronginx"
     - name: "email"
